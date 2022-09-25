@@ -57,6 +57,8 @@ test {
 
 ## 1. 구현하기
 ### 1-1 model 패키지 생성
+#### 일반적으로 개발 도메인에 사용하는 각각의 오브젝트
+#### 데이터베이스와 데이터 주고 받기위한, todoentitiy클래스, 요청, 응답 받는 todorequest, response 모델 클래스 생성
 
 ![image](https://user-images.githubusercontent.com/82345970/187362793-cab49ea3-bb30-4fe7-856b-2328eba34d64.png)
 
@@ -70,7 +72,7 @@ test {
 ![image](https://user-images.githubusercontent.com/82345970/187365202-22147d66-c8ad-49f9-9a8f-7e7e408ce57a.png)
 
 ## 4. 컨트롤러 구현
-### 서버의 들어온 요청을 받는 부분 
+### 서버의 들어온 요청을 받는 부분 -> 요청에 따라 어떤작업을 처리하고, 어떤응답 내려줄지 구현
 ### API 설계문서 참고해서 코드작성 해야 함
 
 
